@@ -1,0 +1,101 @@
+html
+{
+	background-color: 00ffff;
+}
+
+body
+{
+	font-size: 24;
+	font-weight: bold;
+	color: 0000ff;
+}
+
+h3
+{
+	color: ff0000;
+}
+
+.clickableText
+{
+	color: green;
+}
+
+.off
+{
+	background-color: red
+}
+
+.on
+{
+	background-color: bfff00
+}
+
+.wrap1
+{
+	position: relative;
+	left: 75px;
+}
+
+.wrap2
+{
+	position: relative;
+	left: 100px;
+}
+
+.wrap3
+{
+	position: relative;
+	left: 125px;
+}
+
+.wrap4
+{
+	position: relative;
+	left: 150px;
+}
+
+.wrapImage
+{
+	height: 50;
+	width: 100;
+	float: 40;
+}
+
+.colorOverride
+{
+	color: black;
+}
+
+#mainDiv
+{
+	position: absolute;
+	left: 10;
+}
+
+#counterDiv
+{
+    position: fixed;
+    bottom: 0;
+    left: 1500;
+    text-align: left;
+    font-style: italic;
+    color: black;
+}
+
+#shopDiv
+{
+	position: fixed;
+    bottom: 120;
+    left: 1500;
+    text-align: left;
+    color: black;
+}
+
+#preview
+{
+	position: fixed;
+    bottom: 500;
+    left: 1500;
+    height: 200;
+    width: 400;
+}

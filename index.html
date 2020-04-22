@@ -1,0 +1,136 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Máltai utazások</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<link rel="icon" href="img/Flag.png" type="image/png"/ >
+		<script type="text/javascript" src="index.js"></script>
+	</head>
+	<body>
+		<div id="mainDiv">
+			<h3>Málta</h3>
+			Málta egy gyönyörű szigetcsoport Európa és Afrika között a Földközi tenger közepén.
+			<br>
+			<div class="clickable">
+				<a class="clickableText">Három lakott (Malta, Gozo, Comino) és számtalan lakatlan szigetből áll.</a>
+				<div class="wrap1">
+					-Réteges felépítésűek
+					<br>
+					-Üledékes kőzetek
+					<br>
+					-Mészkő
+					<br>
+					-Fő építőanyag: globigerinás mészkő
+					<br>
+					-Ipar: elektronikai ipar, hajóépítés és javítás, építőipar, élelmiszeripar, gyógyszergyártás, cipőgyártás, dohány
+				</div>
+			</div>
+			-Éghajlata mediterrán.
+			<br>
+			-Fővárosa Valetta.
+			<br>
+			-Államforma: köztásaság
+			<br><br>
+			Látnivalók:
+			<br>
+			<div class="wrap1">
+				<a>Nagymesteri Palota</a>
+				<br>
+				<div class="clickable">
+					<a class="clickableText">Szent János Társkatedrális</a>
+					<div class="wrap2">
+						<img class="wrapImage" src="img/Wrap/SzentJanosTK.jpeg" />
+						<br>
+						-Épült: XVI. század
+					</div>
+				</div>
+				<a>Szent Pál-öböl</a>
+			</div>
+			<br>
+			Az országhoz két túránk is tartozik, egy északi és egy déli.
+			<div class="clickable">
+				<a class="clickableText purchasable-10000 north">Észak-Málta túra</a>
+				<div class="wrap1">
+					<div class="clickable">
+						<a class="clickWrapper">Utazásunk a </a><a class="clickableText">Tas-Silġben</a><a class="clickWrapper"> kezdődik.</a>
+						<div class="wrap2">
+							<img class="wrapImage" src="img/Wrap/TasSilg.jpg" />
+							<br>
+							-Ez egy ókori görög és római lelőhely.
+							<br>
+							-Valamikor kr.e. 3500-4000 között épült.
+						</div>
+					</div>
+					<div class="clickable">
+						<a class="clickWrapper">Ezután meglátogatunk egy néhány kilométerre lévő brit katonai bázist, a </a><a class="clickableText">Fort Tas-Silġet</a><a class="clickWrapper">.</a>
+						<div class="wrap2">
+							<img class="wrapImage" src="img/Wrap/FortTasSilg.jpg" />
+							<br>
+							-Építése 1879-ben kezdődőtt meg és 1883-ban fejeződött be.
+						</div>
+					</div>
+					<div class="clickable">
+						<a class="clickWrapper">Innen továbbmegyünk </a><a class="clickableText">Marsaxlokkba</a><a class="clickWrapper"> és megnézzük a Lorenzo Gáfa álltal tervezett plébániatemplomot.</a>
+						<div class="wrap2">
+							<img class="wrapImage" src="img/Wrap/Marsaxlokk.jpeg" />
+						</div>
+					</div>
+					20 perc utazás után megérkezünk Ħaġar Qimbe, ahol egy ókori templomegyüttest fogunk meglátogatni.
+				</div>
+			</div>
+			<div class="clickable">
+				<a class="clickableText purchasable-10000 south">Dél-Málta túra</a>
+				<div class="wrap1">
+					<div class="clickable">
+						<a class="clickWrapper">Utazásunkat a </a><a class="clickableText">Gżirában</a><a class="clickWrapper"> kezdjük, egy 18. századi francia háborús erődben.</a>
+						<div class="wrap2">
+							<img class="wrapImage" src="img/Wrap/Gzira.jpeg" />
+							<br>
+							-1800-ban brit irányítás alá került.
+						</div>
+					</div>
+					<div class="clickable">
+						<a class="clickWrapper">Innen negyed óra alatt eljutunk Mosta belvárosába, ahol megnézzük a </a><a class="clickableText">Mosta Rotundát</a><a class="clickWrapper">, a város templomát.</a>
+						<div class="wrap2">
+							<img class="wrapImage" src="img/Wrap/MostaRotunda.jpeg" />
+							<br>
+							-1833-ban épült.
+							<br>
+							-A második világháború alatt megmenekült a bombázásoktól.
+						</div>
+					</div>
+					<div class="clickable">
+						<a class="clickWrapper">Innen délre haladva elérjük Mdina városát, ahol megnézzük a </a><a class="clickableText">Szent Pál társkatedrálist</a><a class="clickWrapper"> és a város keleti bástyáját, ahonnan rá lehet látni</a><br class="clickWrapper">
+						<div class="clickWrapper wrap3">a sziget nagy részére.</div>
+						<div class="wrap4">
+							<img class="wrapImage" src="img/Wrap/SzentPalTK.jpeg" />
+							<br>
+							-1697 kezdődött meg építése, 1702-ben fejeződött be.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img id="preview" />
+		<div id="shopDiv">
+			<a class="clickableText purchasable-3000 colorOverride">Reggeli</a>
+			<br>
+			<a class="clickableText purchasable-5000 colorOverride">Ebéd</a>
+			<br>
+			<a class="clickableText purchasable-3000 colorOverride">Vacsora</a>
+		</div>
+		<div id="counterDiv">
+				<div id="useDiv">
+					<a>Jegyek száma:</a>
+					<button id="minus">-</button>
+					<a id="use">1</a>
+					<button id="plus">+</button>
+				</div>
+				Összesen: <a id="Total">0</a> FT
+				<br>
+				<button id="Done">Fizetés</button>
+				<br>
+				<a id="Error" />
+		</div>
+	</body>
+</html>
